@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Custom_ArrayMethods;
 
 class arrays {
 
