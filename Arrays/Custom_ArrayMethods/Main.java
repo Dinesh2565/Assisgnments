@@ -1,5 +1,7 @@
 package Arrays.Custom_ArrayMethods;
 
+import Arrays.Assignment.MajorityElement;
+
 import java.util.Arrays;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -21,5 +23,9 @@ System.out.println(Arrays.toString(a.getArray()));
         System.out.println(Arrays.toString(a.getArray()));
         a.delete(3);
         System.out.println(Arrays.toString(a.getArray()));
+
+int []nums= new int []{1,2,5,7,1,2,2,2};
+        MajorityElement m= new  MajorityElement();
+        System.out.println( m.majorityElement(nums));
     }
 }

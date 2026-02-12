@@ -22,28 +22,44 @@ public class MajorityElement {
 
         // O(nlogn)
         int count=0;
-        Arrays.sort(nums);
-        int i=0;
-        int j=0;
         int value=0;
-        while(j<nums.length){
-            if(nums[i]==nums[j]){
-                count++;
+//        Arrays.sort(nums);
+//        int i=0;
+//        int j=0;
+//
+//        while(j<nums.length){
+//            if(nums[i]==nums[j]){
+//                count++;
+//            }
+//            if(count>nums.length/2){
+//                value=nums[i];
+//                break;
+//            }
+//
+//            if(nums[i]!=nums[j]){
+//                i=j;
+//            }
+//            j++;
+//
+//
+//        }
+
+            for(int i=0;i<nums.length;i++){
+                if(count==0){
+                    value=nums[i];
+                }
+                else if(nums[i]==value){
+                    count++;
+                }
+                else{
+                    count--;
+                }
             }
-            if(count>nums.length/2){
-                value=nums[i];
-                break;
-            }
-
-            if(nums[i]!=nums[j]){
-                i=j;
-            }
-            j++;
-
-
-        }
-
-
         return value;
+
+
+
+
+
     }
 }
