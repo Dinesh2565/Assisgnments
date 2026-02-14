@@ -13,7 +13,7 @@ public class RearrangeArray {
             }
             else{
                 ans[p]=nums[i];
-                p+=2;
+                p=p+2;
             }
             i++;
         }
