@@ -14,11 +14,6 @@ public class QueuesOnStacks {
         while(!st.isEmpty()){
             st2.push(st.pop());
         }
-
-
         return st2;
-
     }
-
-
 }
