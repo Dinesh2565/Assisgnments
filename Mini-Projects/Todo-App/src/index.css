@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  width: 400px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+input[type="text"],
+.main-container input {
+  width: 75%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.main-container button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: blue;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.main-container button:hover {
+  background: blue;
+}
+.main-container > div:nth-child(3) button {
+  margin: 10px 5px 15px 0;
+  background: white;
+  color: #333;
+}
+
+.main-container > div:nth-child(3) button:hover {
+  background: white;
+}
+
+.main-container > div:nth-child(4) > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+
+.main-container p {
+  flex: 1;
+  margin-left: 10px;
+  color:grey;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.main-container > div:nth-child(4) button {
+  background: red;
+}
+
+.main-container > div:nth-child(4) button:hover {
+  background: red;
+}
+
+.main-container > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
