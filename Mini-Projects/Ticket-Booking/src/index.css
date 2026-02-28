@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+h2{
+    margin-bottom: 3%;
+}
+.top-container{
+    margin-top: -5%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;      
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+    border: 3px solid blueviolet;
+    height: 90vh;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(54, 44, 44, 0.47);
+}
+.screen{
+    background-color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    color: black;
+    /* margin-top:-7% ; */
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+/* .seats-container{
+    margin-top: -3%;
+} */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20%;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.selected{
+  background-color: slateblue; }
+
+  .taken{
+    background-color: gray;
+    cursor: not-allowed;
+  }
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    /* margin-top: -5%; */
+}
+
+
+
+.info-container button{
+    width: 30px;
+    height: 30px;
+    margin-right: -13%;
+    border-radius: 5px;
+   
+}
+.info-container .selected-info{
+   background-color: slateblue;
+}
+.info-container .takenSeats-info{
+    background-color: grey;
+}
+
+.selectedSeats{
+    background-color: gray;
+    width: 60%;
+    height: 5vh;
+    padding-top: 8px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.selectedSeats span{
+    padding-top: 60px;
+}
+
+.takenSeats{
+    background-color: gray;
+}
+
+.final-btns{
+    width: 100%;
+    text-align: center;
+}
+.final-btns button{
+    height: 30px;
+    width: 60px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.booked-container button{
+    width: 100px;
+    height: 5vh;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 10px;
+    border: none;
+    background-color: cadetblue;
+
+}
